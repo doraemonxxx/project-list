@@ -1,0 +1,6 @@
+@import url('fontawesome-all.css');
+@import url('default.css');
+@import url('desktop.css') only screen and (min-width:801px);
+@import url('mobile.css') only screen and (max-width:800px);
+@import url('mobile_small.css') only screen and (max-width:500px);
+/*@import url('media_two.css') only screen and (max-width:640px);*/

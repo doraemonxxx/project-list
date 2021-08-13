@@ -17,6 +17,10 @@ ol:after,
   display: block;
   clear: both;
 }
+
+a{
+	color: #000000;
+}
 body{
 	display: block;
 	font-family: 'Raleway', sans-serif;
@@ -52,6 +56,10 @@ main, div.proj-list-con{
 	width: 100%;
 	display: block;
 	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 .figure a img{

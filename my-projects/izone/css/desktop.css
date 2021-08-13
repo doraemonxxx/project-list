@@ -1,0 +1,672 @@
+/*******************/
+
+
+/* 
+Baseline viewport  = 1500px 
+
+.max_width {
+  max-width: 81.25vw; --> this is 1600px baseline viewport
+}
+*/
+
+
+/*******************/
+
+.max_width {
+  max-width: 81.25vw;
+  /** this is 1600px baseline viewport**/
+}
+
+
+/************/
+
+header>nav {
+  top: 3.00vw;
+}
+
+header>nav h1 {
+  width: 15.33vw;
+}
+
+header>nav ul {
+  height: 6.286vw;
+  display: flex !important;
+}
+
+header>nav ul li a {
+  font-size: 1.40vw;
+  letter-spacing: 0.20vw;
+}
+
+header>nav ul li a::after {
+  /*height: 0.07vw;*/
+  -webkit-transform: translateY(-0.67vw);
+  -moz-transform: translateY(-0.67vw);
+  transform: translateY(-0.67vw);
+}
+
+header>nav ul li a:hover::after {
+  height: 0.20vw;
+  -webkit-transform: translateY(0.00vw);
+  -moz-transform: translateY(0.00vw);
+  transform: translateY(0.00vw);
+}
+
+
+/***********************/
+
+.bottom {
+  border-bottom: 0.20vw solid #fb2277;
+}
+
+.bottom span {
+  font-size: 1.67vw;
+  text-shadow: 0.00vw 0.27vw 1.00vw #464444cc;
+  letter-spacing: 0.20vw;
+}
+
+.bottom h2 {
+  font-size: 4.33vw;
+  text-shadow: 0.00vw 0.27vw 1.00vw #464444cc;
+  margin-bottom: 0.73vw;
+  letter-spacing: 0.07vw;
+}
+
+.bottom nav ol {
+  padding-left: 0.67vw;
+  width: 70%;
+  /**for max-width 1300px***/
+}
+
+.bottom nav ol li:after {
+  margin: 0 0.73vw 0 0.53vw;
+  top: 0.60vw;
+  right: -1.00vw;
+  font-size: 1.20vw;
+}
+
+.bottom nav ol li a {
+  font-size: 1.00vw;
+  letter-spacing: 0.07vw;
+  padding: 0.67vw 0;
+  margin: 0 1.33vw;
+}
+
+.bottom nav ol li:nth-child(1) a:before {
+  font-size: 0.73vw;
+  left: 0.20vw;
+  top: 0.95vw;
+}
+
+.bottom nav>a {
+  font-size: 1.00vw;
+  letter-spacing: 0.07vw;
+  padding: 0.67vw 2.00vw;
+}
+
+.bottom nav>a:after {
+  border: 0.13vw solid #fb2277;
+}
+
+
+/*******************/
+
+#yt_modal span,
+#subscribe>div span {
+  width: 6.67vw;
+  top: 2.00vw;
+  right: 3.33vw;
+}
+
+#yt_modal span i,
+#subscribe>div span i {
+  font-size: 4.67vw;
+}
+
+#yt_modal iframe {
+  width: 60.00vw;
+  height: 33.33vw;
+}
+
+
+/***************/
+
+#subscribe>div>div h2 {
+  font-size: 2.73vw;
+  margin-bottom: 1.27vw;
+}
+
+#subscribe form input,
+.subscribe_section .max_width>div:nth-child(2) form input,
+footer .right form input {
+  padding: 0.33vw 0.67vw;
+  margin-right: 2%;
+  height: 2.67vw;
+  font-size: 1.20vw;
+}
+
+.invalid {
+  border: 0.100vw solid #ff0000 !important;
+}
+
+label#for_email,
+label#second_for_email,
+label#third_for_email {
+  font-size: 1.00vw;
+  bottom: -1.33vw;
+}
+
+#subscribe form button,
+.subscribe_section .max_width>div:nth-child(2) form button,
+footer .right form button {
+  width: 30%;
+  font-size: 1.20vw;
+  letter-spacing: 0.13vw;
+}
+
+#subscribe form button::after,
+.subscribe_section .max_width>div:nth-child(2) form button::after,
+footer .right form button::after {
+  border: 0.13vw solid #ffffff;
+}
+
+
+/*****************************/
+
+#subscribe p.terms,
+.second_terms,
+.third_terms {
+  font-size: 1.00vw;
+  margin-top: 0.67vw;
+}
+
+#subscribe>div>div .terms_con {
+  width: 85%;
+  /**newly added**/
+}
+
+#subscribe>div>div .terms_con,
+.second_terms_con,
+.third_terms_con {
+  margin-top: 0.13vw;
+  padding: 0.33vw 0.53vw;
+}
+
+.second_terms_con,
+.third_terms_con {
+  margin-top: 0.33vw;
+}
+
+#subscribe>div>div .terms_con p,
+.second_terms_con p,
+.third_terms_con p {
+  font-size: 1.00vw;
+  letter-spacing: normal;
+  /**newly added**/
+}
+
+#subscribe>div>div .terms_con p a::before,
+.second_terms_con p a::before,
+.third_terms_con p a::before {
+  text-shadow: 0 0 0.07vw rgba(255, 255, 255, 0.3);
+  -webkit-transform: scale(1.1) translateX(0.67vw) translateY(-0.67vw) rotate(4deg);
+  -moz-transform: scale(1.1) translateX(0.67vw) translateY(-0.67vw) rotate(4deg);
+  transform: scale(1.1) translateX(0.67vw) translateY(-0.67vw) rotate(4deg);
+}
+
+#subscribe>div>div .terms_con p a:hover::before,
+.second_terms_con p a:hover::before,
+.third_terms_con p a:hover::before {
+  -webkit-transform: scale(1) translateX(0.00vw) translateY(0.00vw) rotate(0deg);
+  -moz-transform: scale(1) translateX(0.00vw) translateY(0.00vw) rotate(0deg);
+  transform: scale(1) translateX(0.00vw) translateY(0.00vw) rotate(0deg);
+}
+
+
+/*************************/
+
+.world_tour article {
+  padding-top: 3.33vw;
+  padding-bottom: 4.40vw;
+}
+
+.world_tour article h2 {
+  padding-bottom: 1.00vw;
+  font-size: 4.00vw;
+  letter-spacing: 0.07vw;
+}
+
+.world_tour article .nav li a {
+  font-size: 1.13vw;
+  margin: 0 1.33vw;
+  letter-spacing: 0.07vw;
+}
+
+.world_tour article .nav li a::after {
+  font-size: 1.33vw;
+  right: -0.20vw;
+}
+
+.tour_content {
+  width: 57%;
+  /**newly added**/
+  margin-top: 3.00vw;
+}
+
+.tour_content ol li {
+  margin-bottom: 2.67vw;
+}
+
+.tour_content ol li .tour_date span {
+  letter-spacing: 0.07vw;
+  font-size: 1.33vw;
+}
+
+.tour_content ol li .tour_place span:nth-child(1) {
+  font-size: 1.80vw;
+  letter-spacing: 0.07vw;
+  margin-bottom: 0.53vw;
+}
+
+.tour_content ol li .tour_place span:nth-child(2) {
+  font-size: 1.00vw;
+  letter-spacing: 1.0.33vw;
+}
+
+.tour_content ol li .tour_ticket a {
+  font-size: 1.20vw;
+  letter-spacing: 0.13vw;
+  padding: 0.73vw 0;
+}
+
+.tour_content ol li .tour_ticket a:after {
+  border: 0.13vw solid #fb2277;
+}
+
+.view_more_date,
+.music_section div.column_3>a,
+.merch_sec div.max_width>a {
+  font-size: 1.33vw;
+  letter-spacing: 0.13vw;
+}
+
+.no-schedule-to-show {
+  letter-spacing: 0.07vw;
+  font-size: 1.53vw;
+}
+
+
+/****************************************************/
+
+.subscribe_section .max_width {
+  padding: 2.67vw 0;
+}
+
+.subscribe_section .max_width>div:nth-child(1) {
+  margin-right: 2.33vw;
+}
+
+.subscribe_section .max_width>div:nth-child(1) h2 {
+  font-size: 2.20vw;
+  padding-bottom: 0.33vw;
+}
+
+.subscribe_section .max_width>div:nth-child(1) p {
+  font-size: 1.40vw;
+}
+
+
+/***************************************************/
+
+.music_section .max_width {
+  padding: 6.33vw 0;
+}
+
+
+/**************column 1*******************/
+
+.music_section div.column_1 h2 {
+  font-size: 3.33vw;
+}
+
+.music_section div.column_1 h2 span {
+  font-size: 1.40vw;
+  letter-spacing: 0.20vw;
+  text-indent: 0.33vw;
+}
+
+.music_section div.column_1 h3,
+.music_section div.column_3 h3 {
+  font-size: 1.67vw;
+  margin: 3.33vw 0 1.00vw 0;
+}
+
+.music_section div.column_1 ul li,
+.music_section div.column_3 ul li {
+  margin-bottom: 1.33vw;
+}
+
+.music_section div.column_1 ul li>a,
+.music_section div.column_3 ul li>a {
+  letter-spacing: 0.13vw;
+  padding: 1.00vw;
+  font-size: 1.00vw;
+}
+
+.music_section div.column_1 ul li>a::before,
+.music_section div.column_1 ul li>a::after,
+.music_section div.column_3 ul li>a::before,
+.music_section div.column_3 ul li>a::after {
+  top: -0.07vw;
+  left: -0.07vw;
+}
+
+.music_section div.column_1 ul li>a::after,
+.music_section div.column_3 ul li>a::after {
+  -webkit-transform: translateY(-0.47vw) translateX(0.40vw);
+  -moz-transform: translateY(-0.47vw) translateX(0.40vw);
+  transform: translateY(-0.47vw) translateX(0.40vw);
+}
+
+.music_section div.column_1 ul li>a:hover::before,
+.music_section div.column_3 ul li>a:hover::before {
+  -webkit-transform: translateY(0.33vw) translateX(-0.33vw);
+  -moz-transform: translateY(0.33vw) translateX(-0.33vw);
+  transform: translateY(0.33vw) translateX(-0.33vw);
+}
+
+.music_section div.column_1 ul li>a:hover::after,
+.music_section div.column_3 ul li>a:hover::after {
+  -webkit-transform: translateY(0.00vw) translateX(0.00vw);
+  -moz-transform: translateY(0.00vw) translateX(0.00vw);
+  transform: translateY(0.00vw) translateX(0.00vw);
+}
+
+.music_section div.column_1 ul li>a i,
+.music_section div.column_3 ul li>a i {
+  padding-right: 0.67vw;
+  font-size: 1.00vw;
+}
+
+.music_section div.column_1 ul li>a:hover i,
+.music_section div.column_3 ul li>a:not(.hover-down):hover i,
+.play_link i {
+  font-size: 1.13vw !important;
+  padding-right: 0.33vw !important;
+}
+
+
+/***********hover-down ni ya men***************/
+
+.hover-down-container {
+  left: -0.07vw;
+  width: 18vw;
+  /**newly added**/
+  padding: 1.33vw 16.2vw 1.33vw 1.67vw;
+  /**newly addeed**/
+  /**di sa makuha sa width ti gn padding ko e ya**/
+}
+
+.hover-down-container a {
+  font-size: 0.87vw;
+  letter-spacing: 0.13vw;
+  margin-bottom: 1.33vw;
+}
+
+
+/*****************column_3******************************/
+
+.music_section div.column_3 h3 {
+  margin: 0 0 1.00vw 0;
+}
+
+.music_section div.column_3 h3:nth-of-type(2) {
+  margin-top: 1.07vw;
+}
+
+.music_section div.column_3>a {
+  margin: 0.67vw 0 0 0.33vw;
+  font-size: 1.00vw;
+}
+
+.music_section div.column_2 .spotify_frame,
+.music_section div.column_2 .apple_frame,
+.music_section div.column_2 .youtube_frame,
+.music_section div.column_2 .deezer_frame {
+  height: 27.67vw;
+}
+
+.music_section div.column_2 .apple_frame,
+.music_section div.column_2 .deezer_frame {
+  border-radius: 0.67vw;
+}
+
+.music_section div.column_2 .deezer_frame p {
+  font-size: 1.13vw;
+  letter-spacing: 0.13vw;
+}
+
+
+/*******************video_section********************/
+
+.video_section h2 {
+  font-size: 3.33vw;
+}
+
+.video_section h2 span {
+  padding-bottom: 0.33vw;
+  font-size: 1.40vw;
+  letter-spacing: 0.13vw;
+}
+
+
+/********************************************/
+
+.video_section div.v-wrap {
+  padding: 3.33vw 0 6.67vw 0;
+}
+
+.video_section div.v-wrap ul.v-slides>div li {
+  padding: 5.00vw 0;
+}
+
+.video_section div.v-wrap ul.v-slides>div li a span.v-play-button {
+  width: 5.33vw;
+  height: 5.33vw;
+}
+
+.video_section div.v-wrap ul.v-slides>div li a span.v-play-button i {
+  font-size: 1.33vw;
+  padding-left: 0.27vw;
+}
+
+
+/**** dots for video slides**/
+
+.video_section div.v-wrap .v-slides .slick-dots {
+  width: 100%;
+  bottom: -2.33vw;
+}
+
+.video_section div.v-wrap .v-slides .slick-dots li {
+  margin: 0 0.47vw;
+  width: 1.33vw;
+  height: 1.33vw;
+}
+
+.video_section div.v-wrap .v-slides .slick-dots li button {
+  width: 1.33vw;
+  height: 1.33vw;
+}
+
+.video_section div.v-wrap .v-slides .slick-dots li button:before {
+  top: 0.33vw;
+  left: 0.33vw;
+  width: 0.67vw;
+  height: 0.67vw;
+}
+
+
+/*******************news_sec********************/
+
+.news_sec .max_width {
+  max-width: 84.38vw;
+  /*** this is 1600px**/
+  padding: 5.00vw 1.565vw;
+  /*** this is 1600px**/
+}
+
+.news_sec .news_contents {
+  padding-top: 7.00vw;
+}
+
+.news_sec .news_contents h2 {
+  padding-bottom: 1.00vw;
+  font-size: 4.00vw;
+  letter-spacing: 0.07vw;
+  margin-left: 4.53vw;
+  text-indent: 4.67vw;
+}
+
+.news_sec .news_contents h2::before {
+  width: 13.44vw;
+  /*** this is 1600px**/
+  height: 4.75vw;
+  /*** this is 1600px**/
+  left: -4vw;
+  /*** this is 1600px**/
+  transform: translate(0.67vw, 1.33vw) rotate(-31deg);
+}
+
+.news_sec .news_contents div.news-articles article {
+  padding: 2.67vw 5.40vw 0 0.67vw;
+}
+
+.news_sec .news_contents div.news-articles article p {
+  font-size: 1.07vw;
+  padding-bottom: 0.33vw;
+}
+
+.news_sec .news_contents div.news-articles article p.tags {
+  padding-left: 1.73vw;
+  background-size: 1.267vw;
+  background-position: left 0.07vw;
+}
+
+.news_sec .news_contents div.news-articles article h3 {
+  letter-spacing: 0.07vw;
+  font-size: 2.00vw;
+  padding-bottom: 0.33vw;
+}
+
+.news_sec .news_contents div.news-articles article p.description {
+  font-size: 1.33vw;
+}
+
+.slick-prev,
+.slick-next {
+  width: 3.33vw;
+  height: 3.33vw;
+}
+
+.slick-prev {
+  left: -1.67vw;
+}
+
+.slick-next {
+  right: -1.67vw;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 2.00vw;
+  padding-bottom: 0.33vw;
+}
+
+
+/**********************merch*********************************/
+
+.merch_sec div.max_width {
+  padding: 6.67vw 0 4.67vw 0;
+}
+
+.merch_sec div.max_width ul li a h2 {
+  font-size: 1.67vw;
+  padding: 2.00vw 1.33vw 4.67vw 1.33vw;
+}
+
+.merch_sec div.max_width ul li a span {
+  font-size: 1.07vw;
+  letter-spacing: 0.13vw;
+  bottom: 1.33vw;
+}
+
+.merch_sec div.max_width ul li a span:nth-child(3) {
+  left: 1.33vw;
+}
+
+.merch_sec div.max_width ul li a span:nth-child(3)::before,
+.merch_sec div.max_width ul li a span:nth-child(3)::after {
+  top: 1.56vw;
+  /*** this is 1600px**/
+  left: -0.13vw;
+  /*** this is 1600px**/
+  height: 0.13vw;
+  /*** this is 1600px**/
+}
+
+.merch_sec div.max_width ul li a:hover span:nth-child(3)::after {
+  top: -0.30vw;
+}
+
+.merch_sec div.max_width ul li a span:nth-child(4) {
+  right: 1.33vw;
+}
+
+.merch_sec div.max_width>a {
+  letter-spacing: 0.07vw;
+  margin-top: 3.33vw;
+}
+
+
+/***********footer***************************/
+
+footer .max_width {
+  padding: 2.87vw 0 1.20vw 0;
+}
+
+footer .backtotop {
+  width: 4.67vw;
+  height: 4.67vw;
+  top: -2.53vw;
+  font-size: 1.67vw;
+}
+
+footer .left {
+  margin-right: 2.33vw;
+}
+
+footer .left h2 {
+  font-size: 2.20vw;
+}
+
+footer .right ul {
+  margin-bottom: 0.60vw;
+}
+
+footer .right ul li a {
+  font-size: 1.67vw;
+  margin: 0 0.80vw;
+}
+
+footer .right ul li:first-child a {
+  margin-left: 0.33vw;
+}
+
+footer .right form button::after {
+  border: 0.13vw solid #fb2277;
+}
+
+footer .right .third_terms:hover {
+  color: #fb2277;
+}

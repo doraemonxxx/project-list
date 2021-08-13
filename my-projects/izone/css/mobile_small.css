@@ -1,0 +1,333 @@
+header{
+  background: -webkit-gradient(linear, left top, left bottom, from(#f3d2ed), color-stop(#f0d3e9), to(#f1d3eb));
+  background: -webkit-linear-gradient(top, #f0d3e9, #f3d2ed, #f1d3eb);
+  background: linear-gradient(to bottom, #f3d2ed, #f1d3eb, #f0d3e9);
+}
+
+.vcon{
+  height: 100vh;
+  background-image: url('../images/izone-mobile-header-bg.png');
+  background-position: center 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-wrap{
+  display: none;
+  height: inherit !important;
+}
+
+
+header>nav {
+  top: 8vw;
+}
+
+header>nav h1 {
+  /*width: 46.00vw;*/
+  width: 55vw;
+  margin: 0 auto;
+  float: none;
+}
+
+
+/*****Hamburger Button*******/
+
+.toggle-button {
+  position: absolute;
+  width: 10.00vw;
+  height: 6.00vw;
+  top: 2.00vw;
+  right: 4.00vw;
+}
+
+.toggle-button .menu-bar {
+  border-radius: 1.00vw;
+}
+
+.toggle-button .menu-bar-top {
+  border: 0.80vw solid #fe64a1;
+  border-bottom: none;
+  top: 0;
+}
+
+.toggle-button .menu-bar-middle {
+  height: 0.80vw;
+  background-color: #fe64a1;
+  top: 2.60vw;
+}
+
+.toggle-button .menu-bar-bottom {
+  border: 0.80vw solid #fe64a1;
+  border-top: none;
+  top: unset;
+  bottom: 0.1px;
+}
+
+.button-open .menu-bar-top {
+  border-color: #ffffff;
+  transform: rotate(45deg) translate(1.5vw, 2vw);
+  -webkit-transform: rotate(45deg) translate(1.5vw, 2vw);
+  -moz-transform: rotate(45deg) translate(1.5vw, 2vw);
+  -ms-transform: rotate(45deg) translate(1.5vw, 2vw);
+  -o-transform: rotate(45deg) translate(1.5vw, 2vw);
+}
+
+.button-open .menu-bar-middle {
+  background-color: #ffffff;
+  transform: translate(40.00vw);
+  -webkit-transform: translate(40.00vw);
+  -ms-transform: translate(40.00vw);
+  -moz-transform: translate(40.00vw);
+  -o-transform: translate(40.00vw);
+  opacity: 0;
+}
+
+.button-open .menu-bar-bottom {
+  border-color: #ffffff;
+  transform: rotate(-45deg) translate(1.60vw, -2.20vw);
+  -webkit-transform: rotate(-45deg) translate(1.60vw, -2.20vw);
+  -ms-transform: rotate(-45deg) translate(1.60vw, -2.20vw);
+  -moz-transform: rotate(-45deg) translate(1.60vw, -2.20vw);
+  -o-transform: rotate(-45deg) translate(1.60vw, -2.20vw);
+}
+
+header>nav ul{
+  padding-top: 20.00vw;
+}
+
+header>nav ul li {
+  padding: 3.5vw 0;
+}
+
+header>nav ul li a {
+  font-size: 7.00vw;
+}
+
+header>nav ul li a:hover::after {
+  height: 0.40vw;
+  /*dont chnage*/
+}
+
+.bottom {
+  border-bottom: 0.60vw solid #fb2277;
+}
+
+.bottom div.max_width {
+  padding: 0;
+}
+
+.bottom span {
+  text-align: center;
+  font-size: 6.20vw;
+  text-shadow: 0vw 0.8vw 3vw rgba(41, 39, 39, 0.8);
+  letter-spacing: 0.40vw;
+}
+
+.bottom h2 {
+  text-align: center;
+  font-size: 17.20vw;
+  text-shadow: 0vw 0.8vw 3vw rgba(41, 39, 39, 0.8);
+  margin-bottom: 3.00vw;
+  letter-spacing: 0.20vw;
+}
+
+.bottom nav ol {
+  padding: 0;
+  width: 100%;
+  border: 0.40vw solid #fb2277;
+  border-left: none;
+  border-right: none;
+}
+
+.bottom nav ol li {
+  width: 21%;
+}
+
+.bottom nav ol li:after {
+  margin: 0 1.00vw 0 1.00vw;
+  top: 1.55vw;
+  right: -1.60vw;
+  font-size: 3.80vw;
+}
+
+.bottom nav ol li:nth-child(3):after {
+  right: -2.60vw;
+}
+
+.bottom nav ol li a {
+  font-size: 4.60vw;
+  letter-spacing: 0.20vw;
+  padding: 1.40vw 0;
+  margin: 0 0;
+}
+
+.bottom nav ol li:nth-child(1) a:before {
+  font-size: 3.00vw;
+  left: -1.80vw;
+  top: 2.40vw;
+}
+
+.bottom nav>a {
+  font-size: 6.00vw;
+  padding: 1.00vw 0;
+  width: 100%;
+  border: none;
+}
+
+.bottom nav>a:after {
+  border: 0.20vw solid #fb2277;
+}
+
+.bottom nav>a:hover::after {
+  height: 64.00vw;
+}
+
+#subscribe>div>div h2{
+  font-size: 8vw;
+}
+
+.world_tour {
+  background-image: url('../images/izone-concert-bg.png');
+}
+
+
+.world_tour article .nav li a{
+  font-size: 4.13vw;
+}
+.world_tour article .nav li a::after{
+  font-size: 4.13vw;
+}
+
+.tour_content ol li .tour_date{
+  width: 17%;
+}
+.tour_content ol li .tour_date span{
+  font-size: 3.5vw;
+}
+
+.tour_content ol li .tour_place{
+  width: 37%;
+}
+
+.tour_content ol li .tour_place span:nth-child(1){
+  font-size: 4.38vw;
+}
+
+.tour_content ol li .tour_place span:nth-child(2){
+  font-size: 2.88vw;
+}
+
+.tour_content ol li .tour_ticket{
+  width: 25%;
+}
+
+.tour_content ol li .tour_ticket a{
+  font-size: 3.25vw;
+}
+
+.view_more_date, 
+.music_section div.column_3>a, 
+.merch_sec div.max_width>a{
+  font-size: 4.75vw;
+}
+
+.subscribe_section .max_width>div:nth-child(1) h2{
+  font-size: 6.13vw;
+}
+
+.subscribe_section .max_width>div:nth-child(1) p{
+  font-size: 3.63vw;
+  word-break: break-word;
+}
+
+
+#subscribe form input, 
+.subscribe_section .max_width>div:nth-child(2) form input, 
+footer .right form input{
+  font-size: 3.25vw;
+  height: 7.82vw;
+}
+
+
+#subscribe form button, 
+.subscribe_section .max_width>div:nth-child(2) form button, 
+footer .right form button{
+  font-size: 3.5vw;
+}
+
+
+#subscribe p.terms, 
+.second_terms, 
+.third_terms{
+  font-size: 4vw;
+}
+
+#subscribe>div>div .terms_con p, 
+.second_terms_con p, 
+.third_terms_con p{
+  font-size: 3vw;
+}
+
+
+
+.music_section div.column_1 h2{
+  font-size: 10.00vw;
+}
+
+.music_section div.column_1 h2 span{
+  font-size: 4.63vw;
+}
+
+.music_section div.column_1 h3, 
+.music_section div.column_3 h3{
+  font-size: 4.13vw;
+}
+
+
+.music_section div.column_2 .spotify_frame, 
+.music_section div.column_2 .apple_frame, 
+.music_section div.column_2 .youtube_frame, 
+.music_section div.column_2 .deezer_frame{
+  height: 56.3vw;
+}
+
+
+
+.hover-down-container a{
+  font-size: 3vw;
+}
+
+.video_section h2{
+  font-size: 10.00vw;
+}
+.video_section h2 span{
+  font-size: 4.63vw;
+}
+
+.news_sec .news_contents div.news-articles article p{
+  font-size: 3.88vw;
+}
+.news_sec .news_contents div.news-articles article p.tags{
+  background-position: left 1.1vw;
+}
+.news_sec .news_contents div.news-articles article h3{
+  font-size: 5.38vw;
+}
+
+.merch_sec div.max_width ul li a h2{
+  font-size: 4vw;
+  padding: 3.75vw 2.50vw 9.75vw 2.50vw;
+}
+
+.merch_sec div.max_width ul li a:hover span:nth-child(3)::after {
+  top: -0.99vw;
+}
+
+
+footer .left h2{
+  font-size: 6.13vw;
+}
+
+footer .right ul li a{
+  font-size: 5.75vw;
+}

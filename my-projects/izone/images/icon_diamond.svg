@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon_x5F_diamond" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="20px" height="20px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2;}
+	.st1{fill:#FF50A0;}
+	.st2{opacity:0.5;}
+	.st3{opacity:0.3;}
+</style>
+<g>
+	<g>
+		<g class="st0">
+			<g>
+				<rect x="3.9" y="3.9" transform="matrix(0.7071 0.7071 -0.7071 0.7071 10 -4.1421)" class="st1" width="12.2" height="12.2"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<path class="st1" d="M10,19.8L0.2,10L10,0.2l9.8,9.8L10,19.8z M2.5,10l7.5,7.5l7.5-7.5L10,2.5L2.5,10z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g class="st2">
+			<polygon class="st1" points="10,1.7 11.1,10 18.6,9.8 			"/>
+		</g>
+		<g>
+			<g>
+				<rect x="1.8" y="9.5" class="st1" width="16.9" height="1.6"/>
+			</g>
+		</g>
+		<g class="st3">
+			<polygon class="st1" points="1.4,10 10,18.6 11.3,10.5 			"/>
+		</g>
+	</g>
+</g>
+</svg>
